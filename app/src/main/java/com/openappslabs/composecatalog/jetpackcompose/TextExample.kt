@@ -28,7 +28,7 @@ import androidx.compose.ui.unit.sp
 // onTextLayout: ((TextLayoutResult) -> Unit)? = null,
 // style: TextStyle = LocalTextStyle.current
 
-@Preview(showBackground = true)
+@Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun TextExample(){
     Text(

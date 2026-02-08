@@ -37,7 +37,7 @@ import androidx.compose.ui.tooling.preview.Preview
 // shape: Shape = TextFieldDefaults.shape,
 // colors: TextFieldColors = TextFieldDefaults.colors()
 
-@Preview(showBackground = true)
+@Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun TextFieldExample() {
 
