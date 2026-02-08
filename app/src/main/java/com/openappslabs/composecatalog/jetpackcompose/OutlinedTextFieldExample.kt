@@ -1,4 +1,4 @@
-package com.openappslabs.composecatalog.ui.components
+package com.openappslabs.composecatalog.jetpackcompose
 
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
@@ -36,7 +36,7 @@ import androidx.compose.ui.tooling.preview.Preview
 
 @Preview(showBackground = true)
 @Composable
-private fun OutlinedTextFieldExample() {
+fun OutlinedTextFieldExample() {
 
     var name by remember{ mutableStateOf("") }
 

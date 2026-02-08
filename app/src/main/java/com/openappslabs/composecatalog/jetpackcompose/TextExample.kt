@@ -1,4 +1,4 @@
-package com.openappslabs.composecatalog.ui.components
+package com.openappslabs.composecatalog.jetpackcompose
 
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
